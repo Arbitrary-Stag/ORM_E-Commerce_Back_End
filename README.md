@@ -21,6 +21,10 @@ If you would like to learn more about this license, please click the link.
 ## Credits
 This code was written by William Weaver, using the assistance of class materials.
 
+The starter code for this project was cloned from the respoistory linked below.
+
+https://github.com/coding-boot-camp/fantastic-umbrella
+
 ## Video Tutorial
 Click the link below to view a soundless tutorial demonstrating the apps functionality. 
 
