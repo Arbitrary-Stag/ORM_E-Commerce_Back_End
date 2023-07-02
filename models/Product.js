@@ -13,14 +13,15 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
+      onDelete: 'CASCADE'
     },
     product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
     price: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.DECIMAL(10,2),
       allowNull: false,
       validate: {
         isDecimal: true
@@ -36,6 +37,7 @@ Product.init(
     },
     category_id: {
       type: DataTypes.INTEGER,
+      onDelete: 'CASCADE',
       references: {
         model: 'category',
         key: 'id',
